@@ -1,6 +1,6 @@
 .abc
 {
-	background-image:url('boooks.jpg');/*to darken the backgroung and its url*/
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)), url('boooks.jpg');/*to darken the backgroung and its url*/
 	height: 51px;
 	background-size:cover;/*to fill max background*/
 	background-position: center;
@@ -21,7 +21,7 @@
 	margin:0 auto 100px;
 	padding:50px;
 	text-align:center;
-	background:rgba();
+	background:rgb(75 175 215);
 }
 
 .form input
@@ -40,13 +40,30 @@
 .a
 {
 	font-family: cursive;
-	background-color:#4CAF50;
+	background-color:#3CD46D; /*#4CAF50*/
 	width:85%;
 	outline:0;
 	text-transform:uppercase;
 	padding:20px;
-	color:#FFTFTF;/*buuton text color*/
+	color:#FFTFTF;/*button text color*/
 	cursor:pointer;
 }
+
+.form button:hover,.form button:active{
+	background:red;
+}
+
+.form .msg a{
+	color: yellow;
+	text-decoration:none;
+	 
+}
+
+.form .lgin
+{
+	display:none;
+}
+
+
 
 
